@@ -86,12 +86,24 @@ button {
 }
 
 .sidebar .home {
-    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar .settings {
-    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.icons .home,
+    .icons .settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .main-content {
     font-family: old-standard-tt;
