@@ -32,6 +32,7 @@ body, html {
 .header .top-header {
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .searchbar {
@@ -93,5 +94,77 @@ button {
 }
 
 .main-content {
+    font-family: old-standard-tt;
     background-color: var(--main-content-background);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr repeat(3, 3fr);
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--header-background);
+    border-radius: 10px;
+    height: 140px;
+    width: 340px;
+    color: black;
+    text-align: center;
+    box-shadow: -17px 0px 20px -2px grey;
+    padding: 40px;
+}
+
+.card p {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+  
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.main-right {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 3fr;
+    padding: 20px;
+}
+
+.announcements {
+    background-color: var(--header-background);
+    border-radius: 10px;
+    height: 260px;
+    width: 427px;
+    color: black;
+    padding: 20px;
+}
+
+.announcements p {
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.announcements .title {
+    font-weight: bold;
+}
+
+.line {
+    border: 0.5px solid rgb(160, 154, 154);
+    width: 380px;
+}
+
+.trending {
+    background-color: var(--header-background);
+    border-radius: 10px;
+    height: 240px;
+    width: 427px;
+    color: black;
+    padding: 20px;
 }
