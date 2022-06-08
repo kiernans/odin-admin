@@ -31,7 +31,7 @@ body, html {
 
 .header .top-header {
     display: grid;
-    grid-template-columns: 0.5fr 5fr 1fr 1fr 1fr;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
@@ -43,6 +43,16 @@ body, html {
     height: 25px;
     border-radius: 20px;
     margin: 20px;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper img {
+    position: absolute;
+    top: 25px;
+    left: 31px;
 }
 
 .header .bottom-header {
@@ -154,6 +164,11 @@ button {
     padding: 20px;
 }
 
+.main-right h3 {
+    position: relative;
+    top: 8px;
+}
+
 .announcements {
     background-color: var(--header-background);
     border-radius: 10px;
@@ -161,6 +176,8 @@ button {
     width: 427px;
     color: black;
     padding: 20px;
+    position: relative;
+    bottom: 20px;
 }
 
 .announcements p {
@@ -185,4 +202,6 @@ button {
     width: 427px;
     color: black;
     padding: 20px;
+    position: relative;
+    bottom: 20px;
 }
