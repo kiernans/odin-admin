@@ -31,8 +31,9 @@ body, html {
 
 .header .top-header {
     display: grid;
-    grid-template-columns: 5fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 5fr 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 .searchbar {
