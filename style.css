@@ -239,3 +239,16 @@ button {
     position: relative;
     left: 25px;
 }
+
+p.credits {
+    position: absolute;
+    right: 200px;
+    bottom: -110px;
+}
+
+footer {
+    position: relative;
+    left: 40px;
+    top: 70px;
+    color: white;
+}
